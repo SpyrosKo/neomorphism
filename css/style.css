@@ -1,0 +1,72 @@
+body {
+  background-color: #f1ff8a;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.container .rectangle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80px;
+  height: 180px;
+  background-color: #ffcece;
+  border-radius: 20px;
+  -webkit-box-shadow: inset 5px 5px 3px 0px #fffafc, inset -4px -3px 2px 5px #4d4d4d;
+          box-shadow: inset 5px 5px 3px 0px #fffafc, inset -4px -3px 2px 5px #4d4d4d;
+}
+
+.container .rectangle .button {
+  width: 45px;
+  height: 45px;
+  background-color: #f1ff8a;
+  border-radius: 100%;
+  -webkit-box-shadow: inset 6px 14px 1px 0px #4d4d4d, inset -2px -1px 0px 0px #a39496;
+          box-shadow: inset 6px 14px 1px 0px #4d4d4d, inset -2px -1px 0px 0px #a39496;
+  margin: 4px;
+}
+
+.container .rect {
+  -ms-grid-row: 1;
+  grid-area: 1\1\1\1;
+}
+
+.container .rect2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: 1/2/1/2;
+}
+
+.container .rect3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: 2/1/2/1;
+}
+
+.container .rect4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: 2/2/2/2;
+}
+/*# sourceMappingURL=style.css.map */
