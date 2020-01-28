@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "Here comes the man",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
